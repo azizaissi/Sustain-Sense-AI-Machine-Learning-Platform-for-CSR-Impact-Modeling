@@ -1,0 +1,2 @@
+model,cv_mae,cv_rmse,cv_r2
+Ridge,,,0.9341818393851897
