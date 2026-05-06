@@ -1,0 +1,49 @@
+{
+    "file_path": "C:\\Users\\USER\\Desktop\\Predict_Plan_Outcomes\\data\\COFICAB_CSR_cleaned.xlsx",
+    "plan_sheet": "PLAN_CLEAN",
+    "exec_sheet": "EXEC_CLEAN",
+    "random_state": 42,
+    "test_size": 0.2,
+    "cv_folds": 3,
+    "targets": {
+        "Actual_Impact_Value": {
+            "target": "Actual_Impact_Value",
+            "best_model": "ExtraTrees",
+            "method": "old_direct",
+            "test_mae": 2316.5266466395215,
+            "test_rmse": 2964.7382038361507,
+            "test_r2": 0.9168775250159611
+        },
+        "Internal_Participants": {
+            "target": "Internal_Participants",
+            "best_model": "HistGB",
+            "method": "old_direct",
+            "test_mae": 5.655617192205595,
+            "test_rmse": 9.256043240811252,
+            "test_r2": 0.9657391715332015
+        },
+        "Participation_Rate": {
+            "target": "Participation_Rate",
+            "best_model": "Ridge",
+            "method": "old_direct",
+            "test_mae": 1.2243135651016035,
+            "test_rmse": 1.6719572437486243,
+            "test_r2": 0.9341818393851897
+        },
+        "execution_rate": {
+            "target": "execution_rate",
+            "best_model": "Ridge",
+            "method": "old_direct",
+            "test_mae": 5.817173982238714,
+            "test_rmse": 7.317410154133504,
+            "test_r2": 0.8514843270336792
+        },
+        "Actual_Cost_EUR": {
+            "target": "Actual_Cost_EUR",
+            "best_model": "random_forest",
+            "test_mae": 6281.196157152489,
+            "test_rmse": 8660.82428886803,
+            "test_r2": 0.8507939742178159
+        }
+    }
+}
